@@ -1,0 +1,79 @@
+body {
+  background-image: linear-gradient(#cfe1b9, #eff1ed);
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  position: relative;
+  background-color: #cfe1b9;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+#description {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+#ident-biocare {
+  width: 40%;
+  border: solid 1px #089600;
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 800px;
+  min-width: 500px;
+}
+#title {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 40px;
+  text-shadow: 2px 4px #cfe1b9;
+}
+#subtitle {
+  font-size: 25px;
+  font-weight: 500;
+  font-style: oblique;
+  text-shadow: 1px 1px #089600;
+}
+input {
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 30px;
+  border: none;
+}
+.form_user {
+  background-color: #eff1ed;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px auto;
+  margin-left: 30px auto;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+div p {
+  text-align: center;
+}
+label {
+  margin-bottom: 10px;
+  width: 90%;
+  font-size: 17px;
+  padding-top: 8px;
+  margin-left: 30px;
+}
+input[type="button"] {
+  background-color: #089600;
+  color: #eff1ed;
+  border-color: #089600;
+}
+a {
+  color: black;
+}
+a:hover {
+  cursor: pointer;
+  color: #089600;
+}
+footer {
+  border-radius: 20px;
+}
